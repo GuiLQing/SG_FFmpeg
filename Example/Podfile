@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SG_FFmpeg_Example' do
+  pod 'SG_FFmpeg', :path => '../'
+
+  target 'SG_FFmpeg_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
